@@ -25,5 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
         text.setAnimation(test3); //Le mando a mi TextView la animación fade
         image.setAnimation(test2); //Le mando a mi ImageView la animación rotate
+
+        //Cambio en el código java jos jos jos
     }
 }

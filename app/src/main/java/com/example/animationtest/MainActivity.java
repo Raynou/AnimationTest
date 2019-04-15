@@ -6,6 +6,7 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     TextView text;
@@ -26,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
         text.setAnimation(test3); //Le mando a mi TextView la animación fade
         image.setAnimation(test2); //Le mando a mi ImageView la animación rotate
 
+        Toast.makeText(this, "Hola", Toast.LENGTH_SHORT).show();
         //Cambio en el código java jos jos jos
     }
 }
